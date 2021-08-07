@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>good morning</title>
+    <!-- <style media="screen"> 이건 CSS코드(선택자)
+    </style> 꼭 head에 쓸 필요는 없음 개별적으로 사용(속성)도 가능
+  세미콜론(;)은 구분을 위해 적어놓는 습관 /
+color는 속성, red는 값(value), {selector=셀렉터}
+
+모든 링크는 검은색 / 방문했던 링크는 검은색 / 현재 위치한 링크는 빨간색
+id 선택자는 class 선택자보다 우선하고 .이 아니라 #을 사용 / id > class > tag(element) 선택자 순서
+
+border를 만들 때 style이 있어야 표시가 됨-->
+    <style>
+    /* style 에서 주석을 다려면 사용
+    block level element(자동 줄바꿈, 한 라인 전체를 쓺), inline element(자기가 차지하는 만큼만
+    block을 inline으로 바꿀 수 있음: display 사용)*/
+      li {color: red;text-decoration: overline;}
+      h1 {text-align: center;font-size: 50px;
+        border-color:red;
+        border-style: solid; /* border: solid, red, 5px < 이런 식으로 해도 같음 */
+        display: inline;}
+    a {color: black;} /*display: none; 안 보이게 하기*/
+      .saw {color: green;}
+      .head {font-size: 20px;}
+      #spe, #special {color: black;} /* ,를 하면 명령어 중복을 없앨 수 있음*/
+    </style>
+    <!-- class="임의로 지정할 때 쓰기 > 지정한 말 saw 등은 태그가 아니므로 한 번에 지정할 땐 .saw처럼 .을 붙임 head"-->
+  </head>
+  <body>
+    <a href="CSS.html">다음</a> <br>
+    <h1>example</h1><br>
+    <a href="https://opentutorials.org/course/3086/18329" id="spe" target="_blank" class="saw head">example1</a><br>
+    <a href="https://opentutorials.org/course/3086/18329" id="special" target="_blank" class="saw head">example1.1</a><br>
+    <a href="https://opentutorials.org/course/3086/18329" target="_blank" class="saw head">example2</a><br>
+    <a href="https://opentutorials.org/course/3086/18329" target="_blank" class="saw head">example3</a><br>
+    <a href="https://opentutorials.org/course/3086/18329" target="_blank" class="head">example4</a><br>
+    <a href="https://opentutorials.org/course/3086/18329" target="_blank" class="head" style="display: none">example4.1</a><br>
+    <p style="font-size: 20px"> 개별지정에서 .style="display: none"을 사용하면 안 보이게 할 수 있음</p>
+    <!--
+    코드 doctype html 는 html로 만들어 졌다는 걸 알리는 코드
+    윈도우에서 ctrl +  o를 누르면 파일 선택 화면이 등장
+    코드 strong 은 강조하고 싶을 때
+    명령어가 자동완성이나 홈페이지에 적용되지 않을 때 파일 확장자명이 html인지 확인
+    ctrl + ,(콤마) 는 세팅 화면
+    코드 u 는 밑줄을 그을 때
+    코드 meta charset="utf-8" 는 한글이 깨질 때 입력
+    코드 h 는 heading
+    코드 img 는 입력 후 src 는 이미지 링크(외부), 내 컴퓨터 이미지 첨부(이름+확장자명 입력)
+    사진의 크기를 조절할 때: alt 앞에서 속성 width 사용
+    코드 li 는 목록을 만듦 + 코드 ul 은 목록과 목록을 구별하기 위해 필요 ul(모) > li
+    코드 ol 은 목차 번호 매기기(목차 코드는 자동 줄바꿈) <br>
+    코드 title 은 홈페이지 탭의 제목을 정해줌
+    <a href="https://opentutorials.org/course/3084/18418" title="링크에 관한 강의">생활코딩</a>
+    a 내 title 툴바(커서를 댔을 때 나오는 알림창) / target 은 링크를 클릭했을 때 어떤 식으로 나올지 <br>
+    서버와 클라이언트: 서버(응답자, 제공자) / 클라이언트(요구자) <br>
+    깃허브 > 로그인 > repository(저장소) > 세 > github pages > branch-main > save > 주소 받음
+    <br> repository 이름은 (이름).github.io 라고 만들기 <br>
+    깃허브는 html파일을 올릴 때 index.html 로 올려야 한다
+    localhost / 127.0.0.1 (http://)생략 + (/index.html)생략 <br>
+    전체지정(head 에서) 속성: ~~~ / 개별지정(body 에서) 속성="" 사용
+-->
+    <p style="margin: 30px"> <a href="https://unsplash.com/" target="_blank">무료 이미지를 위한 링크 </a> <br><br><br>
+
+    <p style="margin:30px">코드 p 는 열고 닫는 태그가 존재 + 일정한 간격이 있기 때문에 css로 조정</p>
+    <u>good morning</u> <br><strong> good morning </strong> <br>
+    <img src="https://images.unsplash.com/photo-1618751905672-55e41cf82e82?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8eGpQUjRobGtCR0F8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width=20%> <br>
+    <p style="margin-top: 30px"></p>
+    <img src="ex1.jpg" width=20% alt=""> <br>
+<br>코드 < !.-- --> 는 해당 부분을 회색처리 하는 코드 <br>
+<!--
+    <ul>
+      <li style="font-size: 45px">good morning</li>
+      <li>good afternoon</li>
+    </ul>
+    <ol>
+      <li>good afternoon</li>
+      <li>good night</li>
+    </ol>
+-->
+
+
+    <a href="https://opentutorials.org/course/3084/18418" title="링크에 관한 강의" target="_blank">생활코딩=</a>
+    <.a href="https://opentutorials.org/course/3084/18418" title="링크에 관한 강의">생활코딩</a>
+    <p style="margin-top: 30px"> href 뒤에 ""에 링크 입력 / a 와 /a 사이에 링크를 달 텍스트 입력 </p>
+
+    <input type="checkbox"> <br>
+
+    <h1>CSS 시작</h1> <br>
+    <ul>
+      <li style="font-size: 45px">good morning</li>
+      <li>good afternoon</li>
+    </ul>
+    <ol>
+      <li>good afternoon</li>
+      <li>good night</li>
+    </ol>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="disqus_thread"></div>
+
+
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://first-bubmis-websites-for-study.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//first-bubmis-websites-for-study.disqus.com/count.js" async></script>
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/610e0788649e0a0a5ccff523/1fcfcqroc';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+  </body>
+</html>
